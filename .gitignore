@@ -1,0 +1,25 @@
+### fsharp ###
+lib/debug
+lib/release
+Debug
+*.suo
+*.user
+obj
+bin
+/build/
+*.exe
+!.paket/paket.bootstrapper.exe
+.ionide/
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/fsharp,visualstudiocode
